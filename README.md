@@ -7,7 +7,6 @@ Realización de una tarjeta de cumpleaños para interactuar con los elementos pa
 -------------------------------------------------------------------------------------------------
 
 Requisitos básicos para la instalación y utilización del programa
-------------------------------------------------------------------------------------------------
 - Para poder ejecutar el código se debe contar con el software Android Studio, que fue utilizado en esta práctica.
 - La interfaz fue elaborada en el lenguaje XML.
 - Se requiere la utilización de un emulador de Android Studio o un dispositivo móvil con sistema operativo android para realizar las pruebas correspondientes de la aplicación.
