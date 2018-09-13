@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    // Se crea un View Group con RelativeLayout para mejor acomodo de los componentes
+    // Se define el tamaño del View Group
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        // Se crean los siguientes elementos dentro del View Group:
+
+        // Se crea ImageView que mostrará la imagen que se encuentra al fondo
+        // y sera del tamaño del View Group y con un ajuste centrado
+        <ImageView
+            android:src="@drawable/cupcake"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        // Se crea un TextView con una frase y se indican sus propiedades
+        // como tamaño, color y especio en algunos bordes
+        <TextView
+            android:text="Feliz Cumpleaños, Braulio!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp" />
+
+        // Se crea otro TextView que se posiciona en la parte de abajo
+        // del View Group y en las que se estrablecen sus propiedes
+        // como color, tamaño, texto a mostrar y espaciado
+        <TextView
+            android:text="De Karla!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:paddingLeft="250dp"
+            android:paddingTop="450dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
